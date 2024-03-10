@@ -1,0 +1,8 @@
+# 排除文件
+*.pyc
+*.bedpe
+.DS_Store
+
+# 排除文件夹
+**/__pycache__
+**/build
