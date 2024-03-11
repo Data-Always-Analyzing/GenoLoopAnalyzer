@@ -1,12 +1,20 @@
 import pandas as pd
 import sys
 from Loop_C import Loop
+"""
+如果要使用原生Python，
+请注释掉上面的 “from Loop_C import Loop”
+并替换为“from Loop_O import Loop”
+"""
 
-#from Loop_O import Loop
 class LoopReader:
     def __init__(self,path):
         sys.path.append(path)
-        
+        """
+        如果要使用原生Python，
+        请注释掉上面的 “sys.path.append(path)”
+        并添加“pass”保证符合语法
+        """
         
     """
     提供读取和解析循环数据文件的功能。
