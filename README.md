@@ -1,8 +1,16 @@
-# loop_interaction
+# GenoLoopAnalyzer
 ## 项目简介
+GenoLoopAnalyzer 是一个为基因组数据中的环结构分析而设计的创新工具。该工具利用 Python 和 Cython 提供了一个平台，以发现和比较环结构，帮助深入了解基因组的组织和功能。
 
+**环结构识别：** 使用算法识别基因组数据中的环结构，提供不同区域环的起始和结束位置的重要信息。
+
+**Cython 优化：** 对于工具的关键组件，采用 Cython 将 Python 代码编译成 C 代码，为大规模基因组数据分析提供显著的性能改进。
+
+**数据比较与可视化：**  支持不同数据集之间的基因组环结构比较分析，并通过如Venn图这样的视觉表示形式简洁地展示重叠和区别。
+
+**灵活的数据处理：**  能够处理广泛的基因组数据格式，得益于多功能的循环数据读取器和可自定义的处理参数。
 ## 文件结构
-    loop_interaction
+    GenoLoopAnalyzer
     ├── Code
     │   ├── Find.py
     │   ├── LoopReader.py
@@ -25,8 +33,8 @@
 
 ## 使用说明
 ### 执行
-1. 在 Terminal (终端) 中，使用 `git clone git@github.com:Data-Always-Analyzing/loop_interaction.git` 命令下载本项目的存储库。
-2. 在 Terminal (终端) 中，使用 `cd loop_interaction` 命令进入本项目目录。
+1. 在 Terminal (终端) 中，使用 `git clone git@github.com:Data-Always-Analyzing/GenoLoopAnalyzer.git` 命令下载本项目的存储库。
+2. 在 Terminal (终端) 中，使用 `cd GenoLoopAnalyzer` 命令进入本项目目录。
 3. 在 Terminal (终端) 中，使用 `cd Env` 命令 进入本项目中的 `Env` 目录。
 4. 在 Terminal (终端) 中，使用 `conda env create -f environment.yml` 创建虚拟环境并安装所需的依赖。
 5. 在 Terminal (终端) 中，使用 `Conda activate Venn` 激活 Conda 虚拟环境。
